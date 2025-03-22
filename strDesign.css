@@ -1,0 +1,274 @@
+*{
+margin: 0;
+padding: 0;
+background-color: #eefffc;
+align-items: center;
+}
+
+.nav_holder{
+    margin: 0;
+    padding: 0;
+}
+
+    /*Navigation Bar 2*/
+
+    #nav_1{
+        width: 100%;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        background-color: #0d0565;
+        overflow-wrap: scroll;
+    }
+
+    /* title design*/
+
+        .title{
+            
+            position: relative;
+            color: #04a5e5;
+            background:none;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 2.5em;
+            margin-left: 5%;
+            margin-right: 5%;
+            cursor: pointer;
+        }
+
+        #nav_1 ul{
+          
+            display: flex;
+            position: relative;
+            justify-content: space-between;
+            align-items: center;
+            background:none;
+            
+        }
+        
+            #nav_1 ul li{
+                position: relative;
+                background-color: #0d0565;
+                list-style: none;
+                align-items: center;
+                padding: 5%;
+            }
+
+            #nav_1 ul li a{
+               position: relative;
+               font-size: 1.1em;
+                color: #eefffc;
+                background-color: #0d0565;
+                text-decoration: none;
+                transition: .4s;
+            }
+                #nav_1 ul li a:hover{
+                    color: #04a5e5;
+
+                }
+                #nav_1 ul li a:active{
+                    color: #2b88ad;
+                }
+
+
+        .btn1{
+            color: #eefffc;
+            background-color: #bf086d;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 1em;
+            position: relative;
+            left: 20%;
+            border: none;
+            padding: 5px;
+            border-radius: 2px;
+            transition: 0.5s;
+        }
+
+       
+
+        .btn1:hover{
+            border: 2px solid #eefffc;
+            cursor: pointer;
+
+        }
+
+        .btn1:active{
+            border: 2px solid #eefffc;
+            color: #bf086d;
+            background-color: #eefffc;
+            cursor: pointer;
+
+        }
+          
+        /*Navigation Bar 2*/
+
+    #nav_2{
+        width: 100%;
+        height: 8vh;
+        align-items: center;
+        display: flex;
+        border-bottom: none;
+    }
+
+        svg{
+            margin-left: 8%;
+            cursor: pointer;
+        }
+
+        #nav_2 ul{
+            width: 70%;
+            display: flex;
+            margin-left: 0;
+            background: none;
+            justify-content: space-around;
+        }
+
+            #nav_2 ul li{
+                padding: 10px;
+                list-style: none;
+                
+            }
+
+                #nav_2 ul li a{
+                    color: rgb(113, 118, 123);
+                    font-size: 1.2em;
+                    font-weight: bold;
+                    text-decoration: none;
+                    transition: .4s;
+                }
+
+                #nav_2 ul li a:hover{
+                    color: #04a5e5;
+
+                }
+
+                #nav_2 ul li a:active{
+                    color: #2b88ad;
+                }
+
+        input{
+            width: 10%;
+            height: 4vh;
+            border: 1px solid rgb(113, 112, 115);
+            text-align: center;
+            font-size: 1em;
+            border-radius: 30px;
+        }
+
+        #nav_2 i{
+            position:relative;
+            right: 25px;
+            color: gray;
+            background: none;
+            cursor: pointer;
+        }
+
+
+.main_conntainer{
+    width: 100%;
+    align-items: center;
+    background-color: #04a5e5;
+}
+
+    .f1_container{
+        width: 100%;
+        height: 70vh;
+        align-self: center;
+        position: absolute;
+       background-image: url(bg3.jpg);
+       background-size: 100%,70vh;
+    } 
+    
+    #heading{
+        background: none;
+        text-align: center;
+        margin: 13%;
+        margin-top: 8%;
+        margin-bottom: 0;
+        color: #04a5e5;
+        font-size: 4em;
+        text-shadow: 2px 2px 3px #eefffc;
+        letter-spacing: 2px;
+        cursor: pointer;
+    }
+
+    .intro{
+        width: 45%;
+        text-align: center;
+        background: none;
+        color:#04a5e5;
+        font-weight: bold;
+        font-size: 25px;
+        position: absolute;
+        left: 27%;
+        letter-spacing: 1px;
+        line-height: 40px;
+        text-shadow: 2px 2px 3px #eefffc;
+        cursor: pointer;
+    }
+
+    #heading::first-letter{
+        color: #d3117c;
+    }
+
+
+    #First_btn{
+
+        position: absolute;
+        top: 65%;
+        left: 37%;
+        width: 25%;
+        height: 10vh;
+    }
+
+    #First_btn{
+        color: #eefffc;
+        letter-spacing: 2px;
+        font-size: 2.2em;
+        font-weight: bolder;
+        background-color: #d3117c;
+        border-radius: 10px;
+        border: 1px solid #eefffc;
+        transition: .1s;
+    }
+
+    #First_btn:hover{
+
+        border:2px solid #eefffc;
+        cursor: pointer;
+
+    }
+
+    #First_btn:active{
+        color: #d3117c;
+        background-color: #eefffc;
+    }
+
+    .qts{
+        background: none;
+        position: absolute;
+        top: 80%;
+        left: 43.5%;
+        color: #0d0565;
+        font-size: 1.5em;
+        font-weight: bolder;
+        text-shadow: 2px 2px 6px #eefffc;
+        cursor: pointer;
+    }
+
+    /*---------------------- container two --------------------*/
+
+    .content_container{
+        width: 100%;
+        background-color: #bf086d;
+
+    }
+    
+    .dev_title{
+        position: absolute;
+        top: 90vh;
+        left: 37%;
+        background-color: transparent;
+        color: #5c5f5f;
+        font-size: 3em;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
